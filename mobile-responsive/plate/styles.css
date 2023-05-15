@@ -1,0 +1,33 @@
+body {
+  color: red;
+}
+
+.title {
+  font-size: 6rem;
+}
+
+.subtitle {
+  font-size: 4rem;
+}
+
+/* all media so screens and text to speach, if the width is less than 500 it
+does the css in this  */
+@media (max-width: 500px) {
+  body {
+    color: blue;
+  }
+}
+
+/* when you print it changes the body color to blue */
+@media print {
+  body {
+    color: blue;
+  }
+}
+
+/* when the screen is landscape it changes the color. Can also do it with portrait*/
+@media (orientation: landscape) {
+  .title {
+    color: green;
+  }
+}
