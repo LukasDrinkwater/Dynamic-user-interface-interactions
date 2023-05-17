@@ -24,4 +24,6 @@ form.addEventListener("submit", (e) => {
     e.preventDefault();
     errorElement.innerText = messages.join(", ");
   }
+
+  console.log(messages.values.length);
 });
